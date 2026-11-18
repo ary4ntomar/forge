@@ -19,16 +19,18 @@ export const runWakeup = async () => {
     options: [
       { value: "cli", label: "CLI" },
       { value: "telegram", label: "Telegram" },
+      { value: "exit" , label:"Exit"}
     ],
   });
 
-  if (isCancel(mode)) {
-    process.exit(0);
+  if (isCancel(mode) || mode ==="exit") {
+     console.log(chalk.dim("\n  GoodBye !!"));
+     return;
   }
 
   if (mode === "cli") {
     console.log(chalk.dim("starting cli mode ...."));
-  } else {
+  } else if (mode === "telegram") {
     console.log(chalk.dim("starting telegram mode ..."));
   }
 };

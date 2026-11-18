@@ -3,6 +3,9 @@
   "module": "index.ts",
   "type": "module",
   "private": true,
+  "bin": {
+    "forge": "./index.ts"
+  },
   "devDependencies": {
     "@types/bun": "latest"
   },
@@ -13,6 +16,7 @@
     "@clack/core": "^1.6.0",
     "@clack/prompts": "^1.9.0",
     "@types/node": "^26.6.6",
+    "chalk": "^6.0.1",
     "commander": "^15.1.0",
     "figlet": "^1.12.0"
   }

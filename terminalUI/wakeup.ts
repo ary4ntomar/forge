@@ -1,6 +1,7 @@
 import { select, isCancel } from "@clack/prompts";
 import chalk from "chalk";
 import figlet from "figlet";
+import runCliMode from "../modes/cli";
 
 const FACE = chalk.hex("#205e82");
 
@@ -29,7 +30,9 @@ export const runWakeup = async () => {
   }
 
   if (mode === "cli") {
-    console.log(chalk.dim("starting cli mode ...."));
+    console.log(chalk.dim("starting cli mode .... \n"));
+    await runCliMode();
+
   } else if (mode === "telegram") {
     console.log(chalk.dim("starting telegram mode ..."));
   }

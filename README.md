@@ -1,15 +1,1 @@
-# openclaw
-
-To install dependencies:
-
-```bash
-bun install
-```
-
-To run:
-
-```bash
-bun run index.ts
-```
-
-This project was created using `bun init` in bun v1.3.14. [Bun](https://bun.com) is a fast all-in-one JavaScript runtime.
+> 🚧 **Status: Active Development (v0.x)** — Froge - a CLI first autonomous coding and probably multi-purpose agent , currently in phase 1 of development.

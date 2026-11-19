@@ -1,1 +1,1 @@
-> 🚧 **Status: Active Development (v0.x)** — Froge - a CLI first autonomous coding and probably multi-purpose agent , currently in phase 1 of development.
+> 🚧 **Status: Active Development (v0)** — Froge - a CLI first autonomous coding and probably multi-purpose agent , currently in phase 1 of development.
